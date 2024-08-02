@@ -100,3 +100,162 @@ header > .container {
   position: relative;
   top: 13px;
 }
+
+/* ------------main----------- */
+
+/* mainsection 1 */
+.Main-Section-1 > img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* mainsection 2 */
+.Main-Section-2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px gray;
+}
+
+/* section */
+.Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.Section:hover {
+  background-color: rgb(254, 207, 207);
+}
+.Section a {
+  margin-top: 10px;
+}
+/* bus */
+#bus {
+  color: rgb(62, 1, 1);
+  border-bottom: red 3px solid;
+}
+#bus-a {
+  color: red;
+}
+
+#Bus-Section {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.bus-btn {
+    border: 1px #747474 solid;
+    background-color: #fff;
+    padding: 5px;
+    width: 15%;
+    border-radius: 5px;
+}
+/* traveler */
+#Traveler {
+  color: #575eff;
+  border: 1px #575eff solid;
+  background-color: #fff;
+  padding: 5px;
+  width: 10%;
+  border-radius: 30px;
+}
+
+#Form-Section {
+  direction: rtl;
+  margin: 20px;
+}
+
+#swap-btn {
+  border: none;
+  color: #575eff;
+}
+/* --search-tab */
+#Search-Tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+  }
+#search-btn {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  width: 15%;
+  border-radius: 10px;
+}
+/* slider */
+.slider {
+  margin-top: 40px;
+}
+
+.slider-img {
+  width: 32%;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+/* main-section4 */
+#Main-Section-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* card */
+.card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 2px gray;
+  width: 24%;
+  border-radius: 14px;
+}
+.card-img > img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-details {
+  font-size: small;
+  padding: 5px;
+}
+#main-card {
+  display: flex;
+}
+.card-link {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+}
+.card-link a {
+  color: #575eff;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/* mainsection   */
+
+.Main-Section {
+  direction: rtl;
+}
+/* p */
+.Main-Section > p {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* h4 */
+.Main-Section > h4 {
+  color: rgb(69, 69, 69);
+}
+/* a */
+.Main-Section > a {
+  color: blue;
+}
+.Main-Section > a:hover{
+    
+    text-decoration: underline;
+}

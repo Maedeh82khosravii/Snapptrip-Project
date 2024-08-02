@@ -86,11 +86,7 @@
                             <a href="">ویلا </a>
                         </li>
                         <li id="bus" class="Section">
-                            <svg height="20px" viewBox="0 0 32 32" width="20px " xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M23.5 4C24.879 4 26 5.123 26 6.5v4.551c1.14.232 2 1.243 2 2.449v1c0 .827-.673 1.5-1.5 1.5l-.501-.001L26 23.5a2.503 2.503 0 0 1-1.999 2.449L24 26.5c0 .827-.673 1.5-1.5 1.5h-2c-.827 0-1.5-.673-1.5-1.5v-.501h-6v.501c0 .772-.587 1.409-1.337 1.491L11.5 28h-2c-.827 0-1.5-.673-1.5-1.5l-.001-.551A2.504 2.504 0 0 1 6 23.5v-7.501L5.5 16a1.503 1.503 0 0 1-1.491-1.337L4 14.5v-1c0-1.207.86-2.217 2-2.449V6.5C6 5.123 7.121 4 8.5 4h15zm-13 16c-.827 0-1.5.673-1.5 1.5s.673 1.5 1.5 1.5 1.5-.673 1.5-1.5-.673-1.5-1.5-1.5zm11 0c-.827 0-1.5.673-1.5 1.5s.673 1.5 1.5 1.5 1.5-.673 1.5-1.5-.673-1.5-1.5-1.5zm1-10h-13c-.827 0-1.5.673-1.5 1.5v5c0 .827.673 1.5 1.5 1.5h13c.827 0 1.5-.673 1.5-1.5v-5c0-.827-.673-1.5-1.5-1.5zm-1-4h-11C9.673 6 9 6.673 9 7.5S9.673 9 10.5 9h11c.827 0 1.5-.673 1.5-1.5S22.327 6 21.5 6z">
-                                </path>
-                            </svg>
+                            <img width="20" height="20" src="https://img.icons8.com/3d-fluency/94/bus.png" alt="bus" />
                             <a id="bus-a" href="">اتوبوس </a>
                         </li>
                         <li class="Section">
@@ -126,9 +122,10 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m19 9-7 7-7-7" />
                         </svg>
-                        <span>مسافر</span></button>
-                    <button class="bus-btn">اتوبوس خارحی</button>
-                    <button class="bus-btn">اتوبوس داخلی</button>
+                        <span>مسافر</span>
+                    </button>
+                    <button id="bus-btn-1" class="bus-btn">اتوبوس خارجی</button>
+                    <button id="bus-btn-2" class="bus-btn">اتوبوس داخلی</button>
                 </div>
                 <!-- form-section -->
                 <div id="Form-Section">
@@ -142,9 +139,9 @@
                                     stroke-width="2" d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3" />
                             </svg>
                         </button>
-                        <input type="text" name="" id="">
-
-                        <input type="date" name="" id="" placeholder="تاریخ رفت">
+                        <input type="text" name="" id="" >
+                        
+                        <input type=" " name="" id="" placeholder="تاریخ رفت">
                         <button id="search-btn">جستجو</button>
 
                     </form>
@@ -176,56 +173,82 @@
             <div id="main-card" class="Main-Section">
                 <div class="card">
                     <!-- card-img-1 -->
-                    <div class="card-img">
-                        <img src="image/img-1.webp" alt="">
-                    </div>
-                    <div class="card-details">
-                        <h3>چطور با اتوبوس راحت‌تر سفر کنیم؟</h3>
-                        <p>همیشه نمی‌شود با هواپیما و قطار و ماشین شخصی سفر کرد. از یک‌طرف به مقصد همه شهرها قطار...</p>
-                    </div>
-                    <div class="card-link">
-                        <span> 20 1398 </span>
-                        <a href=" ">نمایش مطلب</a>
+                    <div class="card-section">
+                        <div class="card-img">
+                            <img src="image/img-1.webp" alt="">
+                        </div>
+                        <div class="card-details">
+                            <h3>چطور با اتوبوس راحت‌تر سفر کنیم؟</h3>
+                            <p>همیشه نمی‌شود با هواپیما و قطار و ماشین شخصی سفر کرد. از یک‌طرف به مقصد همه شهرها قطار...
+                            </p>
+                        </div>
+                        <div class="card-link">
+                            <span> 20 1398 </span>
+                            <a href=" ">نمایش مطلب</a>
+                        </div>
                     </div>
                     <!-- card-img-2 -->
-                    <div class="card-img">
-                        <img src="image/img2.webp" alt="">
-                    </div>
-                    <div class="card-details">
-                        <h3> لیست وسایل مورد نیاز در سفر با اتوبوس</h3>
-                        <p> سفر با اتوبوس، انتخابی که برخلاف تصورات عموم از سختی و کندی‌اش، در نهایت آنقدر حسن دارد...
-                        </p>
-                    </div>
-                    <div class="card-link">
-                        <span> 10 1399 </span>
-                        <a href=" ">نمایش مطلب</a>
+                    <div class="card-section">
+                        <div class="card-img">
+                            <img src="image/img2.webp" alt="">
+                        </div>
+                        <div class="card-details">
+                            <h3> لیست وسایل مورد نیاز در سفر با اتوبوس</h3>
+                            <p> سفر با اتوبوس، انتخابی که برخلاف تصورات عموم از سختی و کندی‌اش، در نهایت آنقدر حسن
+                                دارد...
+                            </p>
+                        </div>
+                        <div class="card-link">
+                            <span> 10 1399 </span>
+                            <a href=" ">نمایش مطلب</a>
+                        </div>
                     </div>
                     <!-- card-img-3 -->
-                    <div class="card-img">
-                        <img src="image/img3.webp" alt="">
-                    </div>
-                    <div class="card-details">
-                        <h3> همه‌چیز درباره ترمینال‌های تهران برای سفرهای زمینی</h3>
-                        <p>اگر شما هم به دنبال یک سفر زمینی بدون دردسر هستید، سفر با اتوبوس به شما پیشنهاد می‌شود...</p>
-                    </div>
-                    <div class="card-link">
-                        <span> 22 1401 </span>
-                        <a href=" ">نمایش مطلب</a>
+                    <div class="card-section">
+                        <div class="card-img">
+                            <img src="image/img3.webp" alt="">
+                        </div>
+                        <div class="card-details">
+                            <h3> همه‌چیز درباره ترمینال‌های تهران برای سفرهای زمینی</h3>
+                            <p>اگر شما هم به دنبال یک سفر زمینی بدون دردسر هستید، سفر با اتوبوس به شما پیشنهاد می‌شود...
+                            </p>
+                        </div>
+                        <div class="card-link">
+                            <span> 22 1401 </span>
+                            <a href=" ">نمایش مطلب</a>
+                        </div>
+
                     </div>
                     <!-- card-img-4 -->
-                    <div class="card-img">
-                        <img src="image/img-4.webp" alt="">
+                    <div class="card-section">
+                        <div class="card-img">
+                            <img src="image/img-4.webp" alt="">
+                        </div>
+                        <div class="card-details">
+                            <h3>راهنمای کامل خرید بلیط اتوبوس به ارمنستان </h3>
+                            <p> ارمنستان یکی از قدیمی‌ترین کشورهای جهان است که نزدیک به ۴۰ کیلومتر مرز زمینی مشترک با
+                                کشور...</p>
+                        </div>
+                        <div class="card-link">
+                            <span> 21 1399 </span>
+                            <a href=" ">نمایش مطلب</a>
+                        </div>
                     </div>
-                    <div class="card-details">
-                        <h3>راهنمای کامل خرید بلیط اتوبوس به ارمنستان </h3>
-                        <p> ارمنستان یکی از قدیمی‌ترین کشورهای جهان است که نزدیک به ۴۰ کیلومتر مرز زمینی مشترک با
-                            کشور...</p>
+                    <!-- card-img-5 -->
+                    <div class="card-section">
+                        <div class="card-img">
+                            <img src="image/img-5.webp" alt="">
+                        </div>
+                        <div class="card-details">
+                            <h3> راهنمای خرید بلیت اتوبوس به مقصد گرجستان</h3>
+                            <p> خیلی از ما هر چقدر هم شهرهای مختلف را ندیده باشیم، باز هم دلمان می‌خواهد از مرزهای
+                                جغرافیایی...</p>
+                        </div>
+                        <div class="card-link">
+                            <span> 23 1402 </span>
+                            <a href=" ">نمایش مطلب</a>
+                        </div>
                     </div>
-                    <div class="card-link">
-                        <span> 21 1399 </span>
-                        <a href=" ">نمایش مطلب</a>
-                    </div>
-
 
                 </div>
             </div>
@@ -480,7 +503,8 @@
             </p>
             <p>Copyright ©1401 https://www.snapptrip.com</p>
         </div>
-        <script src="app.js"></script>
+    </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

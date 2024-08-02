@@ -1,0 +1,102 @@
+/* General Style */
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: initial;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 30px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* ----START Header styles -----*/
+
+header {
+  background-color: rgb(255, 255, 255);
+  z-index: 950;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0 5px gray;
+}
+header a {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: rgb(220, 220, 220);
+}
+/* header container */
+header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(253, 253, 253);
+  padding: 25px;
+  height: 15px;
+}
+/* -----header-left------ */
+.header-left > ul > li > a {
+  margin-top: 10px;
+}
+/* header-input */
+#headinput {
+  border-radius: 16px;
+  height: 34px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 110px;
+  background-color: #0a10b4;
+  color: white;
+  border: none;
+  font-family: inherit;
+  margin-top: 7px;
+}
+
+#btnimage {
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+#btnimage:hover {
+  background-color: rgb(231, 227, 227);
+}
+
+#btnimage > img {
+  width: 30px;
+  border-radius: 17px;
+  cursor: pointer;
+}
+/* -----header-right---- */
+#logo-img {
+  width: 90px;
+  height: 55px;
+  cursor: pointer;
+  position: relative;
+  top: 13px;
+}

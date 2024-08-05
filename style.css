@@ -1,8 +1,14 @@
+/* --font-style-- */
+@font-face {
+  font-family:"IRANsansWeb" ;
+  src: url(Font/IRANSansWeb.woff2)format(".woff2");
+}
+
 /* General Style */
 body {
   margin: 0;
   background-color: #fff;
-  font-family: initial;
+  font-family: "IRANsansWeb";
 }
 
 ul {

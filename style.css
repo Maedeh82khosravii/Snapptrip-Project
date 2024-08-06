@@ -3,12 +3,14 @@
   font-family:"IRANsansWeb" ;
   src: url(Font/IRANSansWeb.woff2)format(".woff2");
 }
-
 /* General Style */
 body {
   margin: 0;
   background-color: #fff;
   font-family: "IRANsansWeb";
+}
+body *{
+  font-family: inherit;
 }
 
 ul {
@@ -46,7 +48,6 @@ header {
 }
 header a {
   display: inline-block;
-  font-family: "Poppins", sans-serif;
   padding: 6px;
   border-radius: 8px;
   font-weight: bold;

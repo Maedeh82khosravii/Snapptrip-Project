@@ -305,7 +305,10 @@ header > .container {
 .card {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
   overflow: scroll;
+  overflow-y: hidden;
+  padding-bottom: 15px;
 }
 .card-section {
   background-color: rgb(255, 255, 255);
@@ -331,11 +334,16 @@ header > .container {
   display: flex;
   justify-content: space-between;
   font-size: medium;
+  padding-bottom: 20px;
 }
 .card-link a {
   color: #575eff;
   font-weight: bold;
   padding-left: 10px;
+}
+.card-link span{
+  color: #737373;
+  font-size: small;
 }
 
 /* mainsection   */
@@ -492,8 +500,10 @@ footer {
   display: flex;
   flex-direction: row;
 }
-.footer-info-logo >svg {
-  border: 1px solid gainsboro;
+.footer-info-logo img {
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 /* -----footer-ticket------- */
